@@ -71,4 +71,8 @@
     * [49. at](./cmd/49.md)
     * [50. crontab](./cmd/50.md)
     * [61. wget](./cmd/61.md)
+    * [62. 一些系统命令](./cmd/62.md)
+    * [63. RPM](./cmd/63.md)
+    * [64. APT](./cmd/64.md)
+    * [65. IRC](./cmd/65.md)
 
