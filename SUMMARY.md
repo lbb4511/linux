@@ -1,6 +1,6 @@
 # Summary
 
-* [Linux 命令](README.md)
+* [序](README.md)
 * [文件目录操作]
     * [1. ls](./cmd/01.md)
     * [2. cd](./cmd/02.md)
