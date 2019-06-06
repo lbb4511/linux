@@ -73,3 +73,4 @@
   - [63. RPM](cmd/63.md)
   - [64. APT](cmd/64.md)
   - [65. IRC](cmd/65.md)
+  - [66. pacman](cmd/66.md)
