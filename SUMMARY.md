@@ -31,6 +31,7 @@
   - [26. 用 SecureCRT 来上传和下载文件](cmd/26.md)
   - [28. tar](cmd/28.md)
   - [32. gzip](cmd/32.md)
+  - [68. convert](cmd/68.md)
 - [linux 文件权限设置]
   - [27. linux chmod](cmd/27.md)
   - [29. chgrp](cmd/29.md)
@@ -72,6 +73,7 @@
   - [62. 一些系统命令](cmd/62.md)
   - [63. RPM](cmd/63.md)
   - [64. APT](cmd/64.md)
-  - [65. IRC](cmd/65.md)
-  - [66. pacman](cmd/66.md)
-  - [99. software](cmd/99.md)
+  - [65. IRC](other/65.md)
+  - [66. pacman](other/66.md)
+  - [67. ssh](other/67.md)
+  - [99. software](other/99.md)
