@@ -1,0 +1,14 @@
+- [常用软件](software/)
+- [文件打包上传和下载]
+  - [01. 用 SecureCRT 来上传和下载文件](software/01.md)
+  - [02. tar](software/02.md)
+  - [03. gzip](software/03.md)
+  - [04. convert](software/04.md)
+  - [10. convert](software/04.md)
+- [软件管理]
+  - [05. pacman](software/05.md)
+  - [06. RPM](software/06.md)
+  - [07. APT](software/07.md)
+- [软件管理]
+  - [08. SSH](software/08.md)
+- [IRC](software/09.md)
