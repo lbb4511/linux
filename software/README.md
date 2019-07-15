@@ -7,7 +7,6 @@
 - ffmpeg 多媒体处理软件
 - zim 桌面维基
 - meld 比较工具
-- wget
 - sync
 
 > 服务器系统软件

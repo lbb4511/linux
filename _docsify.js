@@ -11,10 +11,10 @@ window.$docsify = {
     maxAge: 86400000, // 过期时间，单位毫秒，默认一天
     paths: [
       '/application/',
-      '/command/', // => /README.md
-      '/file/', // => /guide.md
-      '/software/', // => /get-started.md
-      '/command/', // => /zh-cn/README.md
+      '/command/',
+      '/file/',
+      '/operation-and-maintenance/',
+      '/software/'
     ],
     placeholder: '搜索',
     noData: '找不到结果',
