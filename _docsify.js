@@ -2,8 +2,9 @@ window.$docsify = {
   name: "Linux学习与运用",
   logo: '_img/logo.svg',
   repo: "lbb4511/linux",
-  maxLevel: 1,
-  coverpage: true,
+  maxLevel: 3,
+  subMaxLevel: 2,
+  coverpage: "README.md",
   onlyCover: true,
   loadSidebar: "SUMMARY.md",
   search: {
@@ -28,5 +29,7 @@ const gitalk = new Gitalk({
   owner: 'Github repo owner',
   admin: ['Github repo collaborators, only these guys can initialize github issues'],
   // facebook-like distraction free mode
-  distractionFreeMode: false
+  distractionFreeMode: true,
+  perPage: 10
+
 })
