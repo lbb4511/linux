@@ -5,5 +5,6 @@
   - [APT](software/03.md)
 - [convert](software/04.md)
 - [用 SecureCRT 来上传和下载文件](software/05.md)
+- [FTP](software/06.md)
 - [SSH](software/08.md)
 - [IRC](software/09.md)

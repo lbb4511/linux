@@ -1,0 +1,41 @@
+# Linux 发行版
+
+- Debian
+  - Debian
+  - Ubuntu
+  - Linux Mint
+  - Knoppix
+  - MEPIS
+  - sidux
+  - CrunchBang Linux
+  - Chromium OS
+  - Google Chrome OS
+- Red Hat
+  - Red Hat Enterprise Linux
+  - Fedora
+  - CentOS
+  - Scientific Linux
+  - Oracle Linux
+- Mandriva
+  - Mandriva Linux
+  - PCLinuxOS
+  - Unity Linux
+  - Mageia
+- Gentoo
+  - Gentoo Linux
+  - Sabayon Linux
+  - Calculate Linux
+  - Funtoo Linux
+- Slackware
+  - Slackware
+  - Zenwalk
+  - VectorLinux
+- 其它
+  - SUSE
+  - Arch Linux
+  - Puppy Linux
+  - Damn Small Linux
+  - MeeGo
+  - Slitaz
+  - Tizen
+  - StartOS
