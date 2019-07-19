@@ -1,10 +1,23 @@
 - [常用软件](software/)
-- [软件管理]
   - [pacman](software/01.md)
   - [RPM](software/02.md)
   - [APT](software/03.md)
 - [convert](software/04.md)
-- [用 SecureCRT 来上传和下载文件](software/05.md)
 - [FTP](software/06.md)
 - [SSH](software/08.md)
 - [IRC](software/09.md)
+- [zsh](software/zsh.md)
+- [tmux](software/tmux.md)
+
+---
+
+- [JetBrains](software/jetbrains.md)
+- [Sublime Text](software/sublimetext.md)
+- [VSCode](software/vscode.md)
+- [Trello](software/trello.md)
+- [文件夹实时同步](software/freefilesync.md)
+- [用 SecureCRT 来上传和下载文件](software/SecureCRT.md)
+- [代理服务器](software/nginx.md)
+- [Tomcat](software/tomcat.md)
+- [libxml](software/libxml.md)
+- [Gulp](software/gulp.md)

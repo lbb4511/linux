@@ -28,7 +28,9 @@
   - [文件压缩解压](command/23.md)
   - [ln 链接](command/24.md)
 - [linux 文件权限设置]
+  - [用户和组](command/26.md)
   - [linux 权限操作](command/27.md)
+  - [linux 权限操作](command/28.md)
   - [chgrp](command/29.md)
   - [chown](command/30.md)
 - [磁盘存储相关]
