@@ -13,7 +13,7 @@
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/lib/themes/buble.css" title="buble" disabled>
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/lib/themes/pure.css" title="pure" disabled> -->
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/gitalk/dist/gitalk.css">
-  <script>
+  <script type="text/javascript">
     window.onkeydown = window.onkeyup = window.onkeypress = function (event) {
       // 判断是否按下F12，F12键码为123
       if (event.keyCode = 123) {
@@ -37,26 +37,28 @@
     }, 1e3);
     // 禁止选择
     document.onselectstart = function () { return false; };
-    const gitalk = new Gitalk({
-      clientID: '8194e2d7dba9b720d111',
-      clientSecret: '801009aef54ad4261602b62d58ec1f4d6c571ae4',
-      repo: 'linux',
-      owner: 'lbb4511',
-      // admin: ['Github repo collaborators, only these guys can initialize github issues'],
-      // facebook-like distraction free mode
-      distractionFreeMode: false
-    })
   </script>
 </head>
 
 <body>
   <div id="app">正在加载，请稍候。。。</div>
-  <script src="//cdn.jsdelivr.net/npm/gitalk/dist/gitalk.min.js"></script>
   <script src="./_docsify.js"></script>
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.js"></script>
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/gitalk.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/gitalk/dist/gitalk.min.js"></script>
+  <script>
+    const gitalk = new Gitalk({
+      clientID: '8194e2d7dba9b720d111',
+      clientSecret: '801009aef54ad4261602b62d58ec1f4d6c571ae4',
+      repo: 'linux',
+      owner: 'lbb4511',
+      admin: ['lbb4511'],
+      // facebook-like distraction free mode
+      distractionFreeMode: false
+    })
+  </script>
 </body>
 
 </html>
