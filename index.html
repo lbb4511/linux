@@ -13,6 +13,40 @@
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/lib/themes/buble.css" title="buble" disabled>
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/lib/themes/pure.css" title="pure" disabled> -->
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/gitalk/dist/gitalk.css">
+  <script>
+    window.onkeydown = window.onkeyup = window.onkeypress = function (event) {
+      // 判断是否按下F12，F12键码为123
+      if (event.keyCode = 123) {
+        event.preventDefault(); // 阻止默认事件行为
+        window.event.returnValue = false;
+      }
+    }
+    // 为右键添加自定义事件，可以禁用
+    window.oncontextmenu = function () {
+      event.preventDefault(); // 阻止默认事件行为
+      return false;
+    }
+    var threshold = 160; // 打开控制台的宽或高阈值
+    // 每秒检查一次
+    window.setInterval(function () {
+      if (window.outerWidth - window.innerWidth > threshold ||
+        window.outerHeight - window.innerHeight > threshold) {
+        // 如果打开控制台，则刷新页面
+        window.location.reload();
+      }
+    }, 1e3);
+    // 禁止选择
+    document.onselectstart = function () { return false; };
+    const gitalk = new Gitalk({
+      clientID: '8194e2d7dba9b720d111',
+      clientSecret: '801009aef54ad4261602b62d58ec1f4d6c571ae4',
+      repo: 'linux',
+      owner: 'lbb4511',
+      // admin: ['Github repo collaborators, only these guys can initialize github issues'],
+      // facebook-like distraction free mode
+      distractionFreeMode: false
+    })
+  </script>
 </head>
 
 <body>
