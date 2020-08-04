@@ -50,8 +50,6 @@
   - [netstat](command/56.md)
   - [ss](command/57.md)
   - [telnet](command/58.md)
-  - [s](command/59.md)
-  - [d](command/60.md)
 - [其他]
   - [diff](command/36.md)
   - [date](command/37.md)
